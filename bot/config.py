@@ -1,0 +1,2 @@
+TELEGRAM_TOKEN = "7030627760:AAEDdPA6SUkkxCU8v8XmkIFGNo6fW-Tetb4"
+MODEL_NAME = "microsoft/DialoGPT-medium"
