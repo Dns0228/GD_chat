@@ -2,6 +2,7 @@
 venv/
 .venv/
 env/
+.env
 myenv/
 path/
 
@@ -34,3 +35,7 @@ python bot/main.py
 
 # Деактивация
 deactivate
+
+
+
+sudo systemctl restart mybot.service
