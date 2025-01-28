@@ -1,0 +1,38 @@
+# Виртуальная среда
+venv/
+.venv/
+env/
+myenv/
+path/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Файлы окружения
+.env
+.env.local
+
+# Другие файлы
+.python-version
+
+
+# Создание виртуальной среды
+python -m venv myenv
+
+# Активация (Windows)
+myenv\Scripts\activate
+
+# Активация (macOS/Linux)
+source myenv/bin/activate
+
+# Установка зависимостей
+pip install -r requirements.txt
+
+# Запуск бота
+python bot/main.py
+
+# Деактивация
+deactivate
