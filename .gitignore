@@ -18,7 +18,7 @@ __pycache__/
 
 
 # Создание виртуальной среды
-python -m venv myenv
+apt install python3.10-venv
 
 # Активация (Windows)
 myenv\Scripts\activate

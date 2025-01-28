@@ -18,7 +18,6 @@ def generate_response(prompt: str, max_length: int, temperature: float) -> str:
     response = generator(
         prompt,
         max_length=max_length,
-        temperature=temperature,#Если вы хотите использовать детерминированную генерацию (без сэмплирования), удалите параметр temperature
         num_return_sequences=1,
         truncation=True,
         do_sample=True 
