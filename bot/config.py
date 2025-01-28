@@ -10,5 +10,5 @@ if not TELEGRAM_BOT_TOKEN:
 
 # Настройки модели
 MODEL_NAME = "sberbank-ai/rugpt3small_based_on_gpt2"
-MAX_LENGTH = 750  # Максимальная длина ответа
+MAX_LENGTH = 150  # Максимальная длина ответа
 TEMPERATURE = 0.5  # Креативность модели (от 0 до 1)
