@@ -5,7 +5,7 @@ from models import generate_response
 
 # Обработчик команды /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Привет! Я твой русскоязычный ИИ-чатбот. Напиши что-нибудь, и я отвечу!")
+    await update.message.reply_text("Привет! Я ИИ-чатбот. Напиши что-нибудь, и я отвечу!")
 
 # Обработчик команды /help
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -20,7 +20,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Обработчик команды /info
 async def info_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     info_text = """
-    Я - ММ-чатбот, использующий модель GPT-3 от SberBank.
+    Я - ИИ-чатбот, использующий модель GPT-3 от SberBank.
     Могу поддержать беседу на любую тему!
     """
     await update.message.reply_text(info_text)
