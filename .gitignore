@@ -11,9 +11,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Файлы окружения
-.env
-.env.local
+
 
 # Другие файлы
 .python-version
